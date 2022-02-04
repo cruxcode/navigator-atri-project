@@ -18,12 +18,17 @@ export const useHover = (
 				hasChild: boolean;
 				onMouseEnter: () => void;
 				onMouseLeave: () => void;
+				onMouseDown: () => void;
 		  }[]
 		| undefined
 	),
+	string | undefined,
 	string | undefined
 ] => {
 	const [showHoverFor, setShowHoverFor] = useState<string | undefined>();
+	const [showSelectedFor, setShowSelectedFor] = useState<
+		string | undefined
+	>();
 	const [widgetsWithListeners, setWidgetsWithListeners] = useState<
 		{
 			name: string;
@@ -33,6 +38,7 @@ export const useHover = (
 			hasChild: boolean;
 			onMouseEnter: () => void;
 			onMouseLeave: () => void;
+			onMouseDown: () => void;
 		}[]
 	>();
 	useEffect(() => {
@@ -46,9 +52,19 @@ export const useHover = (
 					onMouseLeave: () => {
 						setShowHoverFor(undefined);
 					},
+					onMouseDown: () => {
+						console.log("mouseDown called");
+						setShowHoverFor(undefined);
+						setShowSelectedFor(widget.ID);
+						const upListener = () => {
+							setShowSelectedFor(undefined);
+							window.removeEventListener("mouseup", upListener);
+						};
+						window.addEventListener("mouseup", upListener);
+					},
 				};
 			})
 		);
-	}, [setShowHoverFor, setWidgetsWithListeners]);
-	return [widgetsWithListeners, showHoverFor];
+	}, [setShowHoverFor, setWidgetsWithListeners, setShowSelectedFor]);
+	return [widgetsWithListeners, showHoverFor, showSelectedFor];
 };

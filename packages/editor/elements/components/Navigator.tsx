@@ -1,5 +1,5 @@
 import React from "react";
-import { gray300, gray700, gray800Hover, spacing20 } from "../consts";
+import { gray300, gray700, gray800, gray800Hover, spacing20 } from "../consts";
 import { Header } from "./Header";
 import { Element } from "./Element";
 import { Controls } from "./Controls";
@@ -82,7 +82,8 @@ const widgets = [
 ];
 
 export const Navigator: React.FC = () => {
-	const [widgetsWithListeners, showHoverFor] = useHover(widgets);
+	const [widgetsWithListeners, showHoverFor, showSelectedFor] =
+		useHover(widgets);
 	return (
 		<div style={styles.navigator}>
 			<Header />
@@ -97,10 +98,13 @@ export const Navigator: React.FC = () => {
 									leftMargin={widget.leftMargin}
 									onMouseEnter={widget.onMouseEnter}
 									onMouseLeave={widget.onMouseLeave}
+									onMouseDown={widget.onMouseDown}
 									key={widget.ID}
 									background={
 										showHoverFor === widget.ID
 											? gray800Hover
+											: showSelectedFor === widget.ID
+											? gray800
 											: ""
 									}
 								></Element>
@@ -128,6 +132,8 @@ export const Navigator: React.FC = () => {
 									background={
 										showHoverFor === widget.ID
 											? gray800Hover
+											: showSelectedFor === widget.ID
+											? gray800
 											: ""
 									}
 								/>

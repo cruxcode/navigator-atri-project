@@ -7,6 +7,7 @@ export interface ElementProps {
 	leftMargin: string;
 	onMouseEnter: () => void;
 	onMouseLeave: () => void;
+	onMouseDown: () => void;
 	background: string;
 }
 
@@ -37,6 +38,7 @@ export const Element: React.FC<ElementProps> = React.memo((props) => {
 			}}
 			onMouseEnter={props.onMouseEnter}
 			onMouseLeave={props.onMouseLeave}
+			onMouseDown={props.onMouseDown}
 		>
 			<div style={{ ...style.img }}>
 				<props.icon />
