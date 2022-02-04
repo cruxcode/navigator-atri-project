@@ -1,0 +1,285 @@
+[
+  {
+    "type": "CREATE",
+    "payload": {
+      "compKey": "nav",
+      "pkg": "design",
+      "state": {
+        "style": {
+          "position": "absolute",
+          "top": "0px",
+          "left": "0px"
+        },
+        "parent": "root",
+        "properties": {},
+        "appearance": {},
+        "alias": ""
+      },
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b"
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "81px",
+          "left": "66.125px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "74px",
+          "left": "120.125px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "style": {
+          "top": "0px",
+          "left": "0px",
+          "position": "absolute"
+        }
+      }
+    }
+  },
+  {
+    "type": "PATCH",
+    "payload": {
+      "ID": "383941bf-fe1f-40a6-983c-a9b84793e12b",
+      "slice": {
+        "parent": "root"
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "atri-scripts run"
+  },
+  "dependencies": {
+    "atri-scripts": "^0.4.6",
+    "atri-editor": "^0.3.0",
+    "@atrilabs/commons": "^0.4.6",
+    "@atrilabs/server": "^0.4.6",
+    "@atrilabs/web-compiler": "^0.4.6"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
